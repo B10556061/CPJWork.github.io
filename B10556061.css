@@ -1,0 +1,377 @@
+@font-face {
+    font-family: HanyiSentyChalk;
+    src: url(font/HanyiSentyChalk2018.ttf);
+}
+
+@font-face {
+    font-family: courbd;
+    src: url(font/courbd.ttf);
+}
+
+body {
+    background-color: #f0eeee;
+    /*background-image: url(https://i.imgur.com/e5JV6xm.gif);
+    background-size: 100%;*/
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.reason {
+    margin-top: 20px;
+}
+
+header {
+    background-image: url(img/1482993290-2190653729_Fotor.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.logoimg {
+    text-align: center;
+    display: block;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    /*width: 100%;*/
+    background-color: gray;
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    width: 20%;
+    text-align: center;
+    /*width: 200px;
+    list-style: none;
+    line-height: 3em;*/
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-size: 0.01vw;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.linklist {
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow: hidden;
+}
+
+nav a:link {
+    color: white;
+}
+
+
+/*a:hover {
+    color: rgb(179, 13, 13) !important;
+}
+
+li:hover {
+    background-color: #aca9a9;
+}*/
+
+.page {
+    /*text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: dashed;*/
+    background-color: orangered;
+}
+
+nav a:visited {
+    color: white;
+}
+
+.my_nav {
+    transition: all 500ms ease-in-out;
+}
+
+.my_nav:hover {
+    background-color: orangered;
+}
+
+.old-text,
+.new-text {
+    display: block;
+    overflow: hidden;
+    transition: all 500ms ease-in-out;
+}
+
+.old-text {
+    height: auto;
+    opacity: 1;
+    width: auto;
+}
+
+.new-text {
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+
+.my_nav:hover .old-text {
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+
+.my_nav:hover .new-text {
+    height: auto;
+    opacity: 1;
+    width: auto;
+}
+
+article {
+    background-color: white;
+    border-radius: 40px;
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+.content {
+    border: dashed #8b4513 2px;
+    border-radius: 27px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    border-bottom: solid #b50f0f 1px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.old-h1,
+.new-h1 {
+    display: block;
+    overflow: hidden;
+    transition: all 500ms ease-in-out;
+}
+
+.old-h1 {
+    font-family: 'HanyiSentyChalk', sans-serif;
+    font-weight: bold;
+    height: auto;
+    opacity: 1;
+    width: auto;
+}
+
+.new-h1 {
+    font-family: 'Courier New', Courier, monospace;
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+
+.title:hover .old-h1 {
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+
+.title:hover .new-h1 {
+    height: auto;
+    opacity: 1;
+    width: auto;
+}
+
+
+/*h1 {
+    font-size: 45px;
+}*/
+
+.new-h1 {
+    font-family: 'Caveat Brush', cursive;
+}
+
+.essay {
+    width: 90%;
+    margin: auto;
+}
+
+.rosekiposter {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.row1,
+.plot {
+    /*margin-top: 25px;*/
+    border-bottom: solid #b50f0f 1px;
+}
+
+h3 {
+    color: #b50f0f;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.small {
+    font-weight: small;
+}
+
+a:link {
+    color: rgb(230, 167, 32);
+}
+
+a:visited {
+    color: rgb(230, 167, 32);
+}
+
+.phright {
+    float: right;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.phleft {
+    float: left;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.thohhprod::before {
+    content: '　　　　　';
+}
+
+.en {
+    font-style: italic;
+}
+
+#comments {
+    background-color: #fcf9f4;
+    border-radius: 40px;
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+.part2 {
+    border: dashed darkgoldenrod 2px;
+    border-radius: 27px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: solid orange 1px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.old-h2,
+.new-h2 {
+    display: block;
+    overflow: hidden;
+    transition: all 500ms ease-in-out;
+}
+
+.old-h2 {
+    font-family: 'HanyiSentyChalk', sans-serif;
+    font-weight: bold;
+    height: auto;
+    opacity: 1;
+    width: auto;
+}
+
+.new-h2 {
+    font-family: 'Caveat Brush', cursive;
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+
+.title2:hover .old-h2 {
+    height: 0;
+    opacity: 0;
+    width: 0;
+}
+
+.title2:hover .new-h2 {
+    height: auto;
+    opacity: 1;
+    width: auto;
+}
+
+.com2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+textarea {
+    border: none;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    width: 83%
+}
+
+input {
+    border: none;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: rgb(240, 239, 239);
+}
+
+.button:hover {
+    background-color: rgb(218, 216, 216);
+}
+
+#review {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.block {
+    border-bottom: solid lightcoral 1px;
+    width: 100%;
+    padding: 15px;
+}
+
+#footer {
+    font-family: 'courbd';
+    font-size: 5px;
+    background-color: #b3b0b0;
+    height: 60px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px 0;
+}
